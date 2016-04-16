@@ -26,3 +26,6 @@ def fib(n):
 	return n
     else:
 	return fib(n - 1) + fib(n - 2)
+
+def index(request):
+    return render(request, 'index.html')

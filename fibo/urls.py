@@ -19,7 +19,7 @@ from django.contrib import admin
 urlpatterns = [
     #url(r'^admin/', admin.site.urls),
     url(r'^(\d{1,2})/$', 'fibonacci.views.do_it'), 
-    url(r'^$', 'templates/fibonacci.html'),
+    url(r'^$', 'fibonacci.views.index'),
 ]
 
 
